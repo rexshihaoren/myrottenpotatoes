@@ -33,6 +33,7 @@ end
 
 gem 'jquery-rails'
 gem 'haml'
+gem 'omniauth-twitter'
 
 # Use unicorn as the web server
 # gem 'unicorn'
