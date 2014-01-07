@@ -3,7 +3,6 @@ Myrottenpotatoes::Application.routes.draw do
   root :to => redirect('/movies')
 
   post '/movies/search_tmdb'
-
   get 'auth/:provider/callback' => 'sessions#create',:as => 'login'
   post 'logout' => 'sessions#destroy'
   get 'auth/failure' => 'sessions#failure'
